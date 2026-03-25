@@ -4,12 +4,12 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="w-full fixed top-0 left-0 bg-gray shadow-md z-50">
+    <nav className="w-full fixed top-0 left-0 bg-white shadow-md z-50">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         
         {/* Logo / Brand */}
         <h1 className="text-xl font-bold text-gray-800">
-          Dev.GG
+          MyApp
         </h1>
 
         {/* Navigation Links */}
