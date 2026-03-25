@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import Navbar from "./components/pages/Navbar";
+import Navbar from "./components/ui/Navbar";
 
 import "./globals.css";
 
@@ -31,10 +31,8 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         
-        {/* ✅ Navbar added here */}
         <Navbar />
 
-        {/* ✅ Push content below fixed navbar */}
         <main className="pt-20 flex-1">
           {children}
         </main>
