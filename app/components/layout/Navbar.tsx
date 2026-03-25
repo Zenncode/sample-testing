@@ -9,7 +9,7 @@ export default function Navbar() {
         
         {/* Logo / Brand */}
         <h1 className="text-xl font-bold text-gray-800">
-          App ni kuya ZenJan Gaming
+          App ni Daddy ZenJan Gaming
         </h1>
 
         {/* Navigation Links */}
