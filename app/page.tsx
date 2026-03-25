@@ -1,9 +1,6 @@
-import Image from "next/image";
-
 export default function Page() {
   return (
     <div className="flex flex-col items-center justify-center text-center min-h-[80vh] px-6">
-      
       {/* Greeting / Hero Section */}
       <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-6">
         Welcome to DevGG
@@ -24,8 +21,9 @@ export default function Page() {
           Documentation
         </button>
       </div>
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
 
+      <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
+      </div>
     </div>
   );
 }
